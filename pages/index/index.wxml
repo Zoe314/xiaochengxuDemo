@@ -1,0 +1,43 @@
+<view class="container clearfix" >
+<image src='../../images/home-bj@3x.png' class='bj'></image>
+  <image class='rule fr'
+      src="../../images/home-rule@3x.png"
+    ></image>
+  <view class='nowBox'>
+    <text class='now'>即将开始</text>
+  </view>
+  <view class='goTo'>
+    立即进入
+  </view>
+  <view class='userBox'>
+    <image src='../../images/home-user-head@3x.png' class='userPic'></image>
+    <view class='username'>{{userName}}</view>  
+    <view class='rank'>排行榜</view>
+    <view class='news'>
+      <view class='day today'>
+        <view class='texta'>今天</view> 
+        <view class='textb'>{{moment}}</view> 
+      </view>
+      <view class=' today2 day'>
+        <view class='texta'>奖金池</view>   
+        <view class='textb money'>{{money}}</view>   
+      </view>
+    </view>
+    <view class='chance'>
+      <view class='fuhuo'>复活机会</view>
+      <view class='xin'>
+        <image src='../../images/home-icon-heart@3x.png' class='heart'>
+        </image>
+         <view class='num'>{{times}}</view> 
+      </view>
+      <view class='more'>更多机会</view>
+    </view>
+  </view>
+  <view class='yaoqing'>
+   邀请好友
+  </view>
+  <view class='ma'>  
+    <text class='tixian'>提现 </text>
+    <text class='tixian'>| 填写邀请码</text>
+  </view>
+</view>

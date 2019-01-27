@@ -1,0 +1,9 @@
+.usermotto {
+  height:172rpx;
+  width:350rpx;
+   background :pink;
+}
+.test {
+  background: red;
+  width:375rpx;
+}

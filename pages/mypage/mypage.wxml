@@ -1,0 +1,8 @@
+<!--index.wxml-->
+  <view class='test'>test</view>
+<view class="container"> 
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <navigator url='../news/news' hover-class='navigatoe-hover'>去新闻业</navigator>
+</view>

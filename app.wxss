@@ -1,0 +1,19 @@
+page{
+  box-sizing: border-box;
+}
+.clearfix::after{
+  content: '.';
+  height:0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+button::after{
+  border: none;
+}
